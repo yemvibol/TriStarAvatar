@@ -2,7 +2,57 @@
     <head>
         <meta charset="utf-8">
         <title>Ayame DataChannel Sample</title>
-        <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+        <link rel="stylesheet" href="htt<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>TriStar Avatar</title>
+    
+</head>
+
+<body>
+    <header class="sticky row">
+        <h4>TriStar Avatar</h4>
+    </header>
+	  
+<div id="s_bottom" style="border: 1px solid #000; height: 25px; overflow-y: scroll;">
+ <div id="result_text"></div>
+
+</div>
+<div id="getresult" style="color:green;"></div>
+<div id="status">Click connect to TriStar then click start talking</div>
+<div>
+<p><input id="start_recognition" style="color: #000; background-color: #ff9b00cf;" type="submit" value="Start talkingï¼" /></p>
+</div>
+
+<div>
+    <p>RoomID
+        <input id="roomIdInput" type="text" value=""></input>
+	</p>
+	<p>
+	ClientID
+        <input id="clientIdInput" disabled type="text" value=""></input>
+    </p>
+    <button onclick="startConn();">Connect to TriStar</button>
+    <button onclick="disconnect();">Disconnect with TriStar</button>
+	    
+    <p> recieved message </p>    
+    <textarea style="height:200px;" id="messages" disabled type="text" value=""></textarea>
+	
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@open-ayame/ayame-web-sdk@2020.2.1/dist/ayame.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+
+<script src="js/speech.js"></script>
+<script src="js/main.js"></script>
+<script src="js/connect.js"></script>
+<script type="text/javascript">
+    sendSpData( );
+</script>
+
+</body>
+
+</html>ps://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
     </head>
     <body>
       <header class="sticky row">
