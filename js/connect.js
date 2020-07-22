@@ -33,7 +33,7 @@ const options = Ayame.defaultOptions;
         };
         <!-- const sendData = () => { -->
 		function sendSpData() {
-          const data = document.getElementById('getresult').innerHTML + "\n";
+          const data = document.getElementById('getresult').innerHTML + "000";
 		  console.log(data);
           if (dataChannel && dataChannel.readyState === 'open') {
             dataChannel.send(data);
