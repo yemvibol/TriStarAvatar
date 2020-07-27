@@ -30,6 +30,8 @@ document.getElementById("start_recognition").onclick = function vr_function() {
                 document.getElementById('getresult').innerHTML = results[i][0].transcript;
 				document.getElementById('status').innerHTML = "Speech recognized! If it is not working click Start talking!";
 				sendSpData();
+				var element = document.getElementById("listTalk");
+				element.scrollTop = element.scrollHeight;
 				<!--document.getElementById("senddata").click(); -->
 				<!--not yet finished speaking-->
 				<!--recognition.stop();-->
