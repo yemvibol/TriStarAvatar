@@ -1,5 +1,5 @@
 const signalingUrl = 'wss://ayame-lite.shiguredo.jp/signaling';
-let roomId = 'ayame-sdk-test';
+let roomId = 'db001';
 let clientId = null;
 let videoCodec = null;
 let audioCodec = null;
