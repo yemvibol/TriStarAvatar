@@ -1,6 +1,6 @@
 var speech_count = 0;
 document.getElementById("start_recognition").onclick = function vr_function() {
-	var now = new Date();
+	
 	var result_text = document.getElementById('result_text');
 	while (result_text.firstChild) {
 		result_text.removeChild(result_text.firstChild);    
@@ -45,6 +45,6 @@ document.getElementById("start_recognition").onclick = function vr_function() {
 		}
         
 	}
-    document.getElementById('status').innerHTML = "status: recognizing... If it does not work click start again."  + now.getSeconds();
+    document.getElementById('status').innerHTML = "status: recognizing... If it does not work click start again.";
     recognition.start();
 }
