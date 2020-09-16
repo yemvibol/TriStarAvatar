@@ -50,7 +50,7 @@ const startConn = async () => {
    await conn.connect(mediaStream, { authnMetadata });
    <!--document.querySelector('#local-video').srcObject = mediaStream;-->
 	
-};
+<!-- }; -->
 <!-- const sendData = () => { -->
 function sendSpData() {
     const data = document.getElementById('getresult').innerHTML + ' \n';	  
