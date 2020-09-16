@@ -58,7 +58,7 @@ function sendSpData() {
     if (dataChannel && dataChannel.readyState === 'open') {
         dataChannel.send(data);
     }
-};
+}
 document.querySelector("#roomIdInput").value = roomId;
 document.querySelector("#clientIdInput").value = options.clientId;
 
